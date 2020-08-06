@@ -22,11 +22,14 @@ export default function Success() {
          <br />
          <br />
          <br />
+         
          <Alert
   status="success"
   variant="subtle"
   flexDirection="column"
   justifyContent="center"
+  color="black"
+  backgroundColor="none"
   textAlign="center"
   height="200px"
 >
@@ -35,8 +38,8 @@ export default function Success() {
     Contact form submitted! 
   </AlertTitle>
   <AlertDescription maxWidth="sm">
-  Please expect 1-3 business days for a reply via email from jhunter@jhunteradv.com<br />
-  <Link href="/">Back to Home</Link>
+  Please expect 1-3 business days for a reply via email from jhunter@jhunteradv.com<br /><br />
+  <Link href="/"><a>Back to Home</a></Link>
   </AlertDescription>
 </Alert>
 
