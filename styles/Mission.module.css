@@ -1,0 +1,60 @@
+.container {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.missionText {
+border-radius: 5px;
+padding: 0.75rem;
+font-size: 1.1rem;
+text-align: center;
+list-style-type: none;
+}
+
+.form {
+  display: column;
+  margin: 10px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.success {
+  display: flex;
+  padding: 10;
+  margin: 10;
+  justify-content: center;
+  
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.people {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.navBar {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 100%, rgba(0, 0, 0, 0.504) 100%, rgb(0, 0, 0) 98%);
+  
+
+}
+
+.navLink {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
