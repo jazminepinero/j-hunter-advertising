@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles/Mission.module.css'
-import Navbar from './Navbar'
+
 import Link from 'next/link'
 
 
@@ -8,9 +8,7 @@ function Mission() {
     return (
         
         <div className={styles.container}>
-            <Navbar />
-            <br />
-            <br />
+           
             <br />
             <h1>We'll save you time & money 💰</h1>
             <p className={styles.missionText}>At J Hunter Advertising, we specialize in writing, placing, and managing all recruitment ads for job boards.

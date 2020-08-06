@@ -13,6 +13,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 
 
+
 function OurServices() {
     return (
         <div>
@@ -22,15 +23,14 @@ function OurServices() {
 
       </Head>
             <NavBar />
+            
             <br />
-            <br />
-            <br />
-            <h1>Our Services</h1>
-            <h4>At J Hunter Advertising you can expect high quality services at an affordable price. Below is a list of the services we provide</h4>
-<AccordionItem>
-  <AccordionHeader _expanded={{ bg: "lightblue", color: "white" }} allowToggle>
+            <h1 className={styles.top}>Our Services</h1>
+            <h4 className={styles.top}>At J Hunter Advertising you can expect high quality services at an affordable price. <br /><br />Below is a list of the services we provide</h4>
+<AccordionItem className={styles.length}>
+  <AccordionHeader _expanded={{ bg: "lightblue", color: "black" }} allowToggle>
     <Box flex="1" textAlign="center">
-      <h4>Personnel Management</h4>
+      <h4 className={styles.accordion}>Personnel Management</h4>
     </Box>
     <AccordionIcon />
   </AccordionHeader>
@@ -40,10 +40,10 @@ function OurServices() {
     <li>Retention Analysis</li>
   </AccordionPanel>
 </AccordionItem>
-<AccordionItem>
+<AccordionItem className={styles.length}>
   <AccordionHeader _expanded={{ bg: "lightblue", color: "white" }} allowToggle>
     <Box flex="1" textAlign="center">
-     <h4>Web Services</h4>
+     <h4 className={styles.accordion}>Web Services</h4>
     </Box>
     <AccordionIcon />
   </AccordionHeader>
@@ -57,7 +57,8 @@ function OurServices() {
   <li>Career Pages</li>
   </AccordionPanel>
 </AccordionItem>
-<h4 className={styles.missionText}>Learn more about us <Link href="/Pricing"><a>here</a></Link></h4>
+<br />
+<h4 className={styles.missionText}>Learn more about us <Link href="/About"><a>here</a></Link></h4>
         </div>
     )
 }

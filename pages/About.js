@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from './Navbar'
 import Head from 'next/head'
 import styles from '../styles/Mission.module.css'
+import Image from './Image'
 
 
 
@@ -30,6 +31,8 @@ function About() {
                  thinking and perception skills. <br />We work with organizations to address their recruitment advertising needs or 
                  assisting with their web and social strategies.</p>
                  <img className={styles.people} src="/people.jpg" alt="people" />
+
+                
 
         </div>
     )

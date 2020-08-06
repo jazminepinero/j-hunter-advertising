@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
    
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>J Hunter Advertising</title>
         <link rel="icon" href="/favicon.ico" />

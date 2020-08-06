@@ -5,8 +5,7 @@ body {
   color: whitesmoke;
   background: rgb(0, 0, 0);
   background: linear-gradient(90deg, rgb(0, 0, 0) 100%, rgba(0, 0, 0, 0.504) 100%, rgb(0, 0, 0) 98%);
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: brandon-grotesque, sans-serif;
 }
 
 a {

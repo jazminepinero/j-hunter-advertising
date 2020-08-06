@@ -4,17 +4,12 @@ import { Button } from '@material-ui/core'
 import styles from '../styles/Mission.module.css'
 function ContactUs() {
     return (
-        <div className={styles.form}>
-            <br />
-            <br />
-            <br />
+        <div>
             <NavBar />
-            <br />
-            <br />
-            <br />
-            <h1>Contact us</h1>
+           <br />
+            <h1 className={styles.container}>Contact us</h1>
           
-<form name="contact" action="/success" method="POST" data-netlify="true">
+<form className={styles.form} name="contact" action="/success" method="POST" data-netlify="true">
 <input type="hidden" name="form-name" value="contact" />
 <p>
 <label htmlFor="yourName">
